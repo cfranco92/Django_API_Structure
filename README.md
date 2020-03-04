@@ -17,11 +17,27 @@ $ deactivate
 
 Install Django from the terminal:
 ```
-$ pip install django -U
+$ pip3 install django -U
 ```
 
 List libraries used in the current environment:
 ```
-$ pip freeze
+$ pip3 freeze
 ```
 
+---
+# Project creation: First Hello, world!. in Django
+Validate the installed extensions:
+```
+$ pip3 freeze
+```
+
+Creation of the project
+```
+$ django-admin startproject [PROJECT_NAME] .
+```
+
+Run server
+```
+$ python3 manage.py runserver
+```
