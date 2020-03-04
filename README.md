@@ -55,3 +55,18 @@ Request atribut
 * request.meta: Headers
 * request.method: Methods
 * request.get: Arguments received
+
+---
+# Sent arguments in the URL
+We sort the numbers passed from the URL, respond to the request in JSON format and see other ways to pass arguments through the URL.
+
+Links: 
+
+sorted:
+```
+http://localhost:8000/sorted/?numbers=400,34,123,12,1,0
+```
+hi:
+```
+http://localhost:8000/hi/cristian/11/
+```
