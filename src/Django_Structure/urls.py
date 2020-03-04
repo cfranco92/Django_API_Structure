@@ -1,11 +1,8 @@
-# from django.contrib import admin
 from django.urls import path
-from django.http import HttpResponse
 
-def hello_world(request):
-    return HttpResponse('Hello world!')
+from Django_Structure import views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls)
-    path('hello-world/', hello_world)
+    path('hello-world/', views.hello_world),
+    path('hi/', views.hi),
 ]

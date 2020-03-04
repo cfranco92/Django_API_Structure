@@ -41,3 +41,17 @@ Run server
 ```
 $ python3 manage.py runserver
 ```
+
+---
+# The request object
+We will create more views, we will play with the different urls patterns that django allows us to have, we will review how django processes the reuqests.
+
+Debugger:
+```python
+import pdb; pdb.set_trace()
+```
+
+Request atribut
+* request.meta: Headers
+* request.method: Methods
+* request.get: Arguments received
